@@ -1,0 +1,16 @@
+h1 {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background-color: gray;
+}
+.texto {
+    color: red;
+}
+.italico {
+    font-style: italic;
+}
+tambem {
+    color: blue;
+    font-weight: bold;
+}
