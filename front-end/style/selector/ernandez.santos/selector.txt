@@ -1,0 +1,6 @@
+1 - h1
+2 - h1,h2,h3,h4,h5,h6
+3 - #content a
+4 - div[role=note]
+5 - #n-mainpage-description a
+6 - #mp-tfa > p
