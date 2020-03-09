@@ -1,0 +1,6 @@
+h1
+h1, h2, h3, h4, h5, h6, h7
+#content a
+div[role=note]
+#n-mainpage-description a
+#mw-content-text > div > p:nth-child(8)
