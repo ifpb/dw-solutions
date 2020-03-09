@@ -4,3 +4,4 @@
 4 - div[role=note]
 5 - #n-mainpage-description a
 6 - #mp-tfa > p
+7 - FALTA CONCLUIR !!!!!!
