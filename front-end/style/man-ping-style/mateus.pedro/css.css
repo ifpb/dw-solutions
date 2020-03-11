@@ -1,7 +1,8 @@
 body {
     font-family: arial, sans-serif;
     width: 50%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 h1, h2 {
