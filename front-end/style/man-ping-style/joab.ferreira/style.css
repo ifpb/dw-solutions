@@ -1,0 +1,34 @@
+/*apliacndo estilo no corpo html*/
+body {
+    /*cor em todo texto*/
+    color: darkgray;
+    /**/
+    font-family: 'Times New Roman', Times, serif;
+    /*tamanho da fonte*/
+    font-size: 17px;
+    /*largura da pagina*/
+    width: 50%;
+    /*margem automatica*/
+    margin: auto;
+}
+
+/*aplicando estino em h1*/
+h1 {
+    /*bordar inferior solida de cor vermelha com 2px*/
+    border-bottom: 2px solid red;
+    /*marqem do top com 50% do tamanho padrao*/
+    margin-top: 50px;
+}
+
+/*aplicando estilo em toda tag "a"*/
+a { 
+    /*retirando sublinhado dos links*/
+    text-decoration: none;
+    /*cor dos links*/
+    color: red;
+}
+/*aplicar estilo em toda tag "a" quando mouser flutuar sob o link*/
+a:hover {
+    /*aplicando underline quando o mouse flutuar em cima do link*/
+    text-decoration: underline;
+}

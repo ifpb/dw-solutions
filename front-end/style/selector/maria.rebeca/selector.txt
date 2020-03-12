@@ -4,5 +4,3 @@
 4- div[role=note] (9 elementos)
 5- #n-mainpage-description a
 6- #mw-content-text > div > p:nth-child(8)
-7-
-8-
