@@ -1,12 +1,27 @@
 body {
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-a:link {
-    color: #622;
-    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    color: #444444;
+    width: 50%;
 }
 h1 {
-    background: blue;
+    margin-top: 50px;
+    border-bottom: #600 solid 2px;
+}
+a:link {
+    color: #662222;
+    text-decoration: none;    
+}
+a:hover {
+    text-decoration: underline;
+}
+
+@media print {
+
+    body {
+        width: 90%;
+    }
+    div#sumario {
+        display: none;
+    }
 }
