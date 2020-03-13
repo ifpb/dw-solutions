@@ -23,6 +23,6 @@ A table “CSS priority scheme (highest to lowest)” ?
     
 As linhas pares do corpo da table “CSS priority scheme (highest to lowest)” ?
     #mw-content-text > div > table:nth-child(52) tbody tr:nth-child(2n)
-    
-Algum link quando o curso está em cima dele. ? 
+
+Algum link quando o curso está em cima dele ? 
     a:link
