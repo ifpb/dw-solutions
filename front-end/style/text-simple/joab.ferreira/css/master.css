@@ -1,0 +1,91 @@
+/*aplicando estilo no corpo da página
+OBS: definições de fonte são realizadas no body*/
+body {
+    /*retirar a margen do body*/
+    margin: 0;
+    /*roboto é uma webfont*/
+    font-family: 'Roboto', sans-serif;
+    /*tamanho da fonte*/
+    font-size: 21px;
+    /*altura de linha*/
+    line-height: 1.58;
+    /*espaçamento entrea as letras*/
+    letter-spacing: -.003em;
+  } 
+
+/*aplicar estilo ao cabeçalho da pagina*/
+header {
+    /*cor de fundo tomato*/
+    background-color: tomato;
+    /*cor do texto branco*/
+    color: white;
+    /*alinhamento do texto central*/
+    text-align: center;
+    /*recuo para que o texto não encoste nas estremidades*/
+    padding: 1.5rem;
+  }
+/*aplicando estilo no cabeçalho h1*/
+header h1 {
+    margin: 0;
+  }
+/*aplicando estilo no main*/
+main {
+    margin: 5rem 0;
+  }
+/*todo asterisco com execeção daquele que tem a classe .banner*/
+main>*:not(.banner){
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*aplicando estilo no h1 do main*/
+main h1 {
+    /*altura da lina*/
+    line-height: 1.04;
+    /*espaçamento nas letras*/
+    letter-spacing: -.015em;
+    /*retirar a margem do main h1*/
+    margin: 0;
+  }
+/*aplicando estilo em h2 do main*/
+main h2 {
+    /*cor da fonte*/
+    color: rgba(0, 0, 0, 0.541176);
+    /*tamanho da fonte*/
+    font-size: 28px;
+    /*altura da linha*/
+    line-height: 1.22;
+    /*espaçamento nas letras*/
+    letter-spacing: -.012em;
+    /*margen do topo em 5px*/
+    margin-top: 5px;
+    /*margem inferior em 22px*/
+    margin-bottom: 22px;
+  }
+/*aplicando estilo no main paragrafo*/
+main p {
+    /*margem do topo com 19px*/
+    margin-top: 29px;
+  }
+/*aplicando estilo na tag a*/
+a {
+    color: tomato;
+    /*retirando underline*/
+    text-decoration: none;
+  }
+/*estilo que mostra o underline ao flutuar o mouse sobreo link*/ 
+a:hover {
+    text-decoration: underline;
+  }
+/*aplicando estilo na classe banner*/
+main .banner {
+    /*plano de fundo imagem banner.jpg*/
+    background-image: url(../img/banner.jpg);
+    /*ajusta para cobrir por inteiro a div*/
+    background-size: cover;
+    /*altura*/
+    height: 20rem;
+    /*largura 100%*/
+    width: 100vw;
+}

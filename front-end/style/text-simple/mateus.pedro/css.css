@@ -28,12 +28,16 @@ main h1, main h2 {
     width: 700px;
 
 }
-main h1 {
-    margin-bottom: 0;
+main h1, main h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+
 }
+
 main h2 {
     color: gray;
-    line-height: 1.22;
+    line-height: 1.5;
     letter-spacing: -.012em;
     margin-top: 5px;
     margin-bottom: 22px;
