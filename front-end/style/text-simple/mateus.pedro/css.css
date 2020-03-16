@@ -28,6 +28,12 @@ main h1, main h2 {
     width: 700px;
 
 }
+main h1, main h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+
+}
 
 main h2 {
     color: gray;
