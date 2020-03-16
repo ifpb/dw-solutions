@@ -1,59 +1,27 @@
-#h1 {
-    #border-width: medium;
-    #align-content: center;
-    #color: rgb(222, 221, 135);
-    #font-size: 18px;
-    #font-family: Arial, sans-serif;
-    #background-color: lightskyblue;}
-
-
-
-
-# h2 {
-#    align-content: center;
-#    color: rgb(222, 221, 135);
-#    font-size: 16px;
- #   font-family: Arial, sans-serif;
- #   display: inline-block;
- #   #background-color: lightskyblue;
- #}
-head {
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    color: #444444;
+    width: 50%;
 }
 h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+    margin-top: 50px;
+    border-bottom: #600 solid 2px;
 }
-body {
-    display: block;
-    margin: 0px;
+a:link {
+    color: #662222;
+    text-decoration: none;    
 }
-table {
-    display: table;
-    border-collapse: separate;
-    white-space: pre-wrap !important;
-    line-height: normal;
-    font-weight: normal;
-    font-size: initial;
-    font-style: normal;
-    color: -internal-quirk-inherit;
-    text-align: start;
-    width: 100%;
-    word-break: break-word;
-    font-family: monospace;
-    tab-size: 4;
-    border-spacing: 0px;
-    border-color: grey;
-    font-variant: normal;
-    margin: 0px;
+a:hover {
+    text-decoration: underline;
 }
-div {
-    display: block;
+
+@media print {
+
+    body {
+        width: 90%;
+    }
+    div#sumario {
+        display: none;
+    }
 }
