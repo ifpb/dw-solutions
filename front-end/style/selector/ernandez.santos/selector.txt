@@ -2,6 +2,6 @@
 2 - h1,h2,h3,h4,h5,h6
 3 - #content a
 4 - div[role=note]
-5 - #n-mainpage-description a
-6 - #mp-tfa > p
+5 - #p-navigation li:first-child a
+6 - #bodyContent p:first-of-type
 7 - FALTA CONCLUIR !!!!!!
