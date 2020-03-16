@@ -1,0 +1,8 @@
+1 - default
+2 - border: 1px dotted black;
+3 - border: 3px solid black;
+4 - border: 3px solid black; padding: 3rem;
+5 - border: 3px solid black; margin: 3rem;
+6 - border: 3px solid black; width: 400px;
+7 - border: 3px solid black; width: 400px; height: 100px;
+8 - border: 3px solid black; width: 400px; height: 100px; margin: auto;
