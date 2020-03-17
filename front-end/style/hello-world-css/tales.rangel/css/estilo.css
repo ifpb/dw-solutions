@@ -1,0 +1,23 @@
+h1{text-align: center;
+    color: white;
+    font-size: 16px;
+    background: gray;}
+        
+ p.texto{
+     color: red;
+ }   
+
+ p.texto-italico{
+     font-style: italic;
+ }
+
+ .tbm{color: blue;
+    font-weight: bold ;}
+
+
+
+	
+
+		4) Apenas na palavra "também", mude sua color (blue) e o font-weight
+        (bold). Use o elemento <span> para isolar a palavra.
+        

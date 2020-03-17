@@ -1,0 +1,28 @@
+Os títulos de nível 1 ?
+    h1
+
+Todos os títulos ?
+    h1, h2, h3, h4, h5, h6, h7
+
+Todos os hyperlinks do artigo principal ?
+    #bodyContent a
+
+Selecione as anotações (<div role="note">) ?
+    div[role=note]
+
+Selecione o primeiro hyperlink do menu, o de texto “Main page” ?
+    #p-navigation li:first-child a
+    #n-mainpage-description a
+
+O primeiro parágrafo do artigo principal ?
+    #bodyContent p:first-of-type
+    #mw-content-text > div > p:nth-child(8)
+
+A table “CSS priority scheme (highest to lowest)” ?
+    #mw-content-text > div > table:nth-child(52)
+    
+As linhas pares do corpo da table “CSS priority scheme (highest to lowest)” ?
+    #mw-content-text > div > table:nth-child(52) tbody tr:nth-child(2n)
+
+Algum link quando o curso está em cima dele ? 
+    a:link
