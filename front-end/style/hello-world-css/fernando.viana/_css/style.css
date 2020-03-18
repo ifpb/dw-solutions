@@ -1,0 +1,18 @@
+/* Formatação do arquivo externo.html */
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: gray;
+}
+.texto {
+    color: #ff0000;
+}
+.texto-italico {
+    font-style: italic;
+}
+.tbm {
+    color: #0000ff;
+    font-weight: bold;
+}
