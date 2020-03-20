@@ -17,11 +17,10 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
-                <div class="card border-dark mb-3" style="max-width: 55rem;">
-                    <div class="card-header">INFO</div>
-                    <div class="card-body text-dark">
-                      <table class="table">
+            <div class="col-5">
+                <div class="card border-soft mb-3">
+                    <div class="card-header text">INFO</div>
+                      <table class="table table-borderless">
                         <tr> 
                          <th>Intel(R) Core(TM)</th> 
                          <th>i5-4250U CPU @</th>
@@ -31,7 +30,7 @@
                             <td>CPU</td>
                             <td class="align-middle">
                              <div class="progress" style="height: 0.6rem">
-                                 <div class="progress-bar bg-info" role="progressbar" style="width: 12.6%" aria-valuenow="12.6" aria-valuemin="0" aria-valuemax="100"></div>
+                                 <div class="progress-bar bg-soft" role="progressbar" style="width: 12.6%" aria-valuenow="12.6" aria-valuemin="0" aria-valuemax="100"></div>
                              </div>
                          </td>
                             <td>12.6%</td>
@@ -40,7 +39,7 @@
                             <td>MEM </td>
                             <td class="align-middle">
                              <div class="progress" style="height: 0.6rem">
-                                 <div class="progress-bar bg-info" role="progressbar" style="width: 25.7%" aria-valuenow="25.7" aria-valuemin="0" aria-valuemax="100"></div>
+                                 <div class="progress-bar bg-soft" role="progressbar" style="width: 25.7%" aria-valuenow="25.7" aria-valuemin="0" aria-valuemax="100"></div>
                              </div>
                          </td>
                             <td>25.7%</td>
@@ -49,27 +48,228 @@
                             <td>SWAP</td>
                             <td class="align-middle">
                              <div class="progress" style="height: 0.6rem">
-                                 <div class="progress-bar bg-info" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                 <div class="progress-bar bg-soft" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                              </div>
                          </td>
                             <td>0.0%</td>
                         </tr>
-                      </table>
-                    </div>
-                  </div>
-            <div class="col-4">
-                <div class="card border-dark mb-3" style="max-width: 55rem;">
-                  <div class="card-header">Header</div>
-                  <div class="card-body text-dark">
-                    <h5 class="card-title">Dark card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
+                      </table>                    
                 </div>
-
+              </div>
+            <div class="col-3">
+                <div class="card border-soft mb-3">
+                  <div class="card-header text">CPU</div>
+                  <table class="table table-sm">
+                      <tr class="table-danger">
+                        <td>CPU</td>
+                        <td>12.6%</td>
+                        <td>nice:</td>
+                        <td>0.0%</td>
+                        <td>ctx_sw:</td>
+                        <td>647</td>
+                      </tr>
+                      <tr>
+                        <td>user:</td>
+                        <td class="bg-sgr">7.7%</td>
+                        <td>irq:</td>
+                        <td>0.0%</td>
+                        <td>inter:</td>
+                        <td>312</td>
+                      </tr>
+                      <tr>
+                        <td class="table-danger">system:</td>
+                        <td class="bg-sgr">4.8%</td>
+                        <td class="table-danger">iowait:</td>
+                        <td class="bg-sgr">0.0%</td>
+                        <td class="table-danger">sw_int:</td>
+                        <td class="table-danger">193</td>
+                      </tr>
+                      <tr>
+                        <td>idle:</td>
+                        <td>87.5%</td>
+                        <td>steal:</td>
+                        <td>0.0%</td>
+                        <td></td>
+                        <td></td>
+                      </tr>                              
+                  </table>
+                </div>
             </div>
-        </div>
-    </div>
+            <div class="col-3">
+                <div class="card border-soft mb-3">
+                  <div class="card-header text">
+                    <table class="table table-sm m-0 table-borderless text-left">
+                      <th>
+                        <td>NETWORK</td>
+                        <td>Rx/s</td>
+                        <td>Tx/s</td>
+                      </th>
+                    </table>
+                  </div>
+                  <table class="table table-sm text-left">
+                      <tr>
+                        <td>docker0</td>
+                        <td>0b</td>
+                        <td>0b</td>
+                      </tr>
+                      <tr>
+                        <td>eth0</td>
+                        <td>0b</td>
+                        <td>0b</td>
+                      </tr>
+                      <tr>
+                        <td>lo</td>
+                        <td>256b</td>
+                        <td>256b</td>
+                      </tr>
+                      <tr>
+                        <td>vethb1e07b2</td>
+                        <td>0b</td>
+                        <td>0b</td>
+                      </tr>                               
+                  </table>
+                </div>      
+                </div>            
+          </div>
+          <div class="row">
+            <div class="col-5">
+                <div class="card border-soft mb-3">
+                  <div class="card-header text">Memory</div>
+                    <table class="table table-sm">
+                      <tr>
+                        <td class="bg-soft">MEM</td>
+                        <td>25.7%</td>
+                        <td>active:</td>
+                        <td>373M</td>
+                      </tr>            
+                      <tr>
+                        <td>total:</td>
+                        <td>1.95G</td>
+                        <td>inactive:</td>
+                        <td>1.32G</td>
+                      </tr>
+                        <tr>
+                        <td>used:</td>
+                        <td class="bg-sgr">514M</td>
+                        <td>buffers:</td>
+                        <td>31.6M</td>
+                      </tr>
+                      <tr>
+                        <td>free:</td>
+                        <td>1.45G</td>
+                        <td>cached:</td>
+                        <td>1.46G</td>
+                      </tr>                     
+                    </table>
+              </div>
+            </div>
+            <div class="col-3">
+                <div class="card border-soft mb-3">
+                  <div class="card-header text">SWAP</div>
+                      <table class="table table-sm">
+                        <tr>
+                          <td class="bg-soft">SWAP</td>
+                          <td>0.0%</td>
+                        </tr>
+                        <tr>
+                          <td>total:</td>
+                          <td>1024M</td>                          
+                        </tr>
+                        <tr>
+                          <td>used:</td>
+                          <td class="bg-sgr">0</td>
+                        </tr>
+                        <tr>
+                          <td>free:</td>
+                          <td>1024M</td>
+                        </tr>
+                      </table>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card border-soft mb-3">
+                  <div class="card-header text">LOAD</div>
+                      <table class="table table-sm">
+                          <tr>
+                            <td class="bg-soft">LOAD</td>
+                            <td>2-core</td>
+                          </tr>
+                          <tr>
+                            <td>1min:</td>
+                            <td>0.60</td>                          
+                          </tr>
+                          <tr>
+                            <td>5min:</td>
+                            <td>0.81</td>
+                          </tr>
+                          <tr>
+                            <td>15min:</td>
+                            <td class="bg-sgr">0.70</td>
+                          </tr>
+                        </table>
+                </div>
+            </div>                      
+          </div>
+          <div class="row">
+              <div class="col-11">
+                  <div class="card border-soft mb-3">
+                    <div class="card-header text">CONTAINERS 2 (served by Docker 18.09.2)</div>
+                        <table class="table table-sm">
+                            <tr class="bg-soft">
+                              <td>Name</td>
+                              <td>Status</td>
+                              <td>CPU%</td>
+                              <td>MEM</td>
+                              <td>/MAX</td>
+                              <td>IOR/s</td>
+                              <td>IOW/s</td>
+                              <td>Rx/s</td>
+                              <td>Tx/s </td>
+                              <td>Command</td>                                                                  
+                            </tr>
+                            <tr>
+                              <td>heuristic_engelbart</td>
+                              <td>running</td>
+                              <td>27.4</td>
+                              <td>34.6M</td>
+                              <td>1.95G</td>
+                              <td>_</td>
+                              <td>_</td>
+                              <td>_</td>
+                              <td>_</td>
+                              <td>_</td>                          
+                            </tr>
+                            <tr>
+                              <td>sleepy_ritchie</td>
+                              <td>running</td>
+                              <td>0.3</td>
+                              <td>33.7M</td>
+                              <td>1.95G</td>
+                              <td>_</td>
+                              <td>_</td>
+                              <td>0b</td>
+                              <td>0b</td>
+                              <td>_</td>
+                            </tr>
+                          </table>
+                  </div>
+              </div>         
+
+
+
+
+          </div>
+                   
+    
       
+    <!--
+
+
+ 
+ 
+ 
+
+    -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
