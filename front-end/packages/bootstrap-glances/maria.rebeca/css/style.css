@@ -3,10 +3,15 @@ body {
 }
 
 h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: indigo;
     margin-top: 0;
     margin-bottom: 2rem;
-    margin-left: 0;
-    background-image: url(../img/01.jpg); 
+    margin-left: 1rem;
+    margin-right: 9.5rem;
+    background-image: url(../img/01.jpg);
+    opacity: 80%;
 }
 
 .card-header {
@@ -26,6 +31,7 @@ h1 {
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
+
 .bg-soft {
     background-color: palevioletred;
 }
@@ -37,7 +43,6 @@ h1 {
 .text {
     color: rgb(94, 58, 121);
 }
-
 
 .table {
     text-align: center;
