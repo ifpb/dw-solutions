@@ -95,10 +95,9 @@
     </div>        
 
     <!-- COMPONENT 2 -->
-
     <div class="row">
         <div class="col-lg-6">
-            <div class="card">
+            <div class="card tabela mb-4">
                 <div class="card-body">
                   <div class="table-responsive">
                       <table class="table table-striped">
@@ -115,28 +114,28 @@
                             <td>Ronald Bradley</td>
                             <td>Initial commit</td>
                             <td>May 6, 2018</td>
-                            <td><i class="fa fa-trash trash"></i></td>
+                            <td><i class="fa fa-trash link"></i></td>
                          </tr>
                          <tr>
                             <td><img src="img/faces/female/1.jpg" class="perfilf" alt=""></td>
                             <td>Beverly Armstrong</td>
                             <td>Left sidebar adjustments</td>
                             <td>April 15, 2018</td>
-                            <td><i class="fa fa-trash trash"></i></td>
+                            <td><i class="fa fa-trash link"></i></td>
                          </tr>
                          <tr>
                             <td><img src="img/faces/male/4.jpg" class="perfilf" alt=""></td>
                             <td>Bobby Knight</td>
                             <td>Topbar dropdown style</td>
                             <td>April 8, 2018</td>
-                            <td><i class="fa fa-trash trash"></i></td>
+                            <td><i class="fa fa-trash link"></i></td>
                          </tr>                     
                          <tr>
                             <td><img src="img/faces/female/11.jpg" class="perfilf" alt=""></td>
                             <td>Sharon Wells</td>
                             <td>Fixes #625</td>
                             <td>April 9, 2018</td>
-                            <td><i class="fa fa-trash trash"></i></td>
+                            <td><i class="fa fa-trash link"></i></td>
                          </tr>
                       </table>
                   </div>
@@ -146,49 +145,111 @@
 
 
     <!-- COMPONENT 3-->
-    <div class="col-3">
-      <div class="card">
-          <div class="card-body p-3 text-center">
-            <div class="h1 m-0">62</div>
-            <div class="text-muted mb-4">New Feedback</div>
-          </div>
-        </div>
-    </div>  
-    <div class="col-3">
+    <div class="col-md-6">
+      <div class="row">
+      <div class="col-sm-6">
         <div class="card">
             <div class="card-body p-3 text-center">
-              <div class="h1 m-0">$652</div>
-              <div class="text-muted mb-4">Today profit</div>
+              <div class="mb-1 textbold">New Feedback</div>
+              <div class="h1 mb-3 comp3">62</div>
+              <div class="progress" style="height: .5rem;">
+                  <div class="progress-bar bg-red" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
             </div>
           </div>
-      </div>
-      <div class="col-3">
+      </div>  
+      <div class="col-sm-6">
           <div class="card">
               <div class="card-body p-3 text-center">
-                <div class="h1 m-0">62</div>
-                <div class="text-muted mb-4">New Feedback</div>
+                <div class="mb-1 textbold">Today profit</div>
+                <div class="h1 mb-3 comp3">$652</div>
+                <div class="progress" style="height: .5rem;">
+                    <div class="progress-bar bg-green" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
               </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body p-3 text-center">
+                  <div class="mb-1 textbold">New Feedback</div>
+                  <div class="h1 mb-3 comp3">62</div>
+                  <div class="progress" style="height: .5rem;">
+                      <div class="progress-bar bg-red" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-6">
+              <div class="card">
+                  <div class="card-body p-3 text-center">
+                    <div class="mb-1 textbold">Today profit</div>
+                    <div class="h1 mb-3 comp3">$652</div>
+                    <div class="progress" style="height: .5rem;">
+                        <div class="progress-bar bg-green" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+              </div>
+          </div>       
+        </div>     
+      </div> 
+    </div>
+
+    <!-- COMPONENT 4 -->
+    <div class="row"> 
+        <div class="col-3">
+            <div class="card m-0 p-1">
+                <div class="card-body p-3 d-flex">
+                    <div class="itens bg-blue">
+                        <i class="fa fa-dollar"></i>
+                    </div>
+                    <div class="aj2">
+                      <h5>132 Sales</h5>
+                      <h6 class="text-small">12 waiting payments</h6>
+                    </div> 
+                </div>
             </div>
         </div>
         <div class="col-3">
-            <div class="card">
-                <div class="card-body p-3 text-center">
-                  <div class="h1 m-0">$652</div>
-                  <div class="text-muted mb-4">Today profit</div>
+            <div class="card m-0 p-1">
+                <div class="card-body p-3 d-flex">
+                  <div class="itens bg-green">
+                    <i class="fa fa-shopping-cart"></i>
+                  </div>
+                  <div class="aj2">
+                      <h5>78 Orders</h5>
+                      <h6 class="text-small">32 shipped</h6>
+                  </div>
                 </div>
-              </div>
-        </div>       
-  </div>      
-
-    
-    <!-- 
-      TODO Component 4
-
-      132 Sales     12 waiting payments
-      78 Orders     32 shipped
-      1,352 Members 163 registered today
-      132 Comments  16 waiting 
-    -->
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card m-0 p-1">
+                <div class="card-body p-3 d-flex">
+                  <div class="itens bg-red">
+                    <i class="fa fa-users"></i>
+                  </div>
+                  <div class="aj2">
+                      <h5>1,352 Members</h5>
+                      <h6 class="text-small">163 registered today</h6>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card m-0 p-1">
+                <div class="card-body p-3 d-flex">
+                  <div class="itens bg-yellow">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <div class="aj2">
+                      <h5>132 Comments</h5>
+                      <h6 class="text-small">16 waiting</h6>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
   </div>
   
 

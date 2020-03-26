@@ -10,19 +10,59 @@ body {
 }
 
 .text-green {
-  color: green;
+  color: #5eba00;
 }
 
 .text-red {
-  color: red;
+  color: #cd201f;
 }
 
+.bg-red {
+  background-color: #cd201f;
+}
+
+.bg-green {
+  background-color: #5eba00;
+}
+
+.bg-yellow {
+  background-color: #f1c40f; 
+}
+
+.bg-blue {
+  background-color: #467fcf;
+}
+
+.textbold {
+  color: #495057da;
+  font-weight: bold;
+}
+
+.text-small {
+  font-size: 14px;
+  color: #495057d5;
+}
 .card {
   margin-bottom: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
+}
+
+.tabela {
+  margin: 0;
+  padding: 0;
+}
+
+.card-body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.comp3 {
+  font-weight: bolder;
+  font-size: 58px;
 }
 
 .aj {
@@ -36,10 +76,28 @@ body {
   text-align: center;
 }
 
-.trash {
+.link {
   color: rgb(0, 153, 255);
 }
 
-.trash:hover {
-  color: rgba(0, 0, 255, 0.664);
+.link:hover {
+  color: rgba(0, 0, 255, 0.726);
+}
+
+.itens {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 0.7rem;
+  width: 3em;
+  height: 3em;
+  border-radius: 3px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.aj2 {
+  padding-left: 1em;
 }
