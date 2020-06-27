@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Glances</title>
+</head>
+
+
+<body style="background-color:lightslategray;">
+    <header style="background-color: darkslategray; padding: 1em;">
+        <span style="color: wheat; font-size: 40px; font-family:'Times New Roman', Times, serif">Welcome</span><span style="margin-left: 49em; color: wheat; font-family:'Times New Roman', Times, serif;font-size: 30px;"><i>GLANCES</i></span>                                              
+    </header>
+
+    <div class="row" style="margin-top: 1em;">
+        <div class="col-3 px-1">
+            <div class="card text-white bg-dark">
+                <div class="card-body">
+                    <div style="background-color: green;" class="card-header text-center">
+                        Informações
+                    </div>
+                    <table class="table table-sm">
+                        <tbody>
+                            <td>
+                            <td style="color: yellowgreen;">Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz - 1.90/1.30GHz</td>
+                            </td>
+                            <tr>
+                                <td>CPU</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 14%"
+                                            aria-valuenow="14" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </td>
+                                <td>14.2%</td>
+                            </tr>
+                            <tr>
+                                <td>MEM</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </td>
+                                <td>25%</td>
+                            </tr>
+                            <tr>
+                                <td>SWAP</td>
+                                <td>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 0%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </td>
+                                <td>0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 px-1">
+            <div class="card text-white bg-dark">
+                <div class="card-body">
+                    <div style="background-color: green;" class="card-header">
+                        CPU
+                    </div>
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td>CPU</td>
+                                <td>52.5</td>
+                                <td>nice:</td>
+                                <td>0%</td>
+                                <td>ctx_w:</td>
+                                <td>647</td>
+                            </tr>
+                            <tr>
+                                <td>user</td>
+                                <td>9.9</td>
+                                <td>irq:</td>
+                                <td>0%</td>
+                                <td>inter:</td>
+                                <td>319</td>
+                            </tr>
+                            <tr>
+                                <td>system</td>
+                                <td>4.8</td>
+                                <td>iowait:</td>
+                                <td>0%</td>
+                                <td>sw_int:</td>
+                                <td>193</td>
+                            </tr>
+                            <tr>
+                                <td>idle</td>
+                                <td>87.5</td>
+                                <td>steal:</td>
+                                <td>0%</td>
+                            </tr>
+
+
+
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-3 px-1">
+            <div class="card text-white bg-dark">
+                <div class="card-body">
+                    <div style="background-color: green;" class="card-header">
+                        Memória
+                    </div>
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td>MEM</td>
+                                <td>25.7</td>
+                                <td>active:</td>
+                                <td>373M</td>
+
+                            </tr>
+                            <tr>
+                                <td>total:</td>
+                                <td>1.95G</td>
+                                <td>inactive:</td>
+                                <td>1.32G</td>
+
+                            </tr>
+                            <tr>
+                                <td>used</td>
+                                <td>514M</td>
+                                <td>buffers</td>
+                                <td>31.6M</td>
+
+                            </tr>
+                            <tr>
+                                <td>free</td>
+                                <td>1.45G</td>
+                                <td>cached:</td>
+                                <td>1.46G</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 px-1">
+            <div class="card text-white bg-dark">
+                <div class="card-body">
+                    <div style="background-color: green;" class="card-header">
+                        SWAP
+                    </div>
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr>
+                                <td>SWAP</td>
+                                <td>0.0%</td>
+                                <td>LOAD:</td>
+                                <td>2-core</td>
+
+                            </tr>
+                            <tr>
+                                <td>total:</td>
+                                <td>1024M</td>
+                                <td>1 min:</td>
+                                <td>0.60</td>
+
+                            </tr>
+                            <tr>
+                                <td>used</td>
+                                <td>0</td>
+                                <td>5 min:</td>
+                                <td>0.81</td>
+
+                            </tr>
+                            <tr>
+                                <td>free</td>
+                                <td>1024</td>
+                                <td>15 min:</td>
+                                <td>0.70</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row" style="margin-top: 1em;">
+        <div class="col-3 px-1">
+            <div class="card text-white bg-dark">
+                <div class="card-body">
+                    <div style="background-color: green;" class="card-header">
+                        NETWORK
+                    </div>
+                    <table class="table table-sm">
+                        <tbody>
+                            <thead style="color: yellowgreen;">
+                                <tr>
+                                    <td>NETWORK</td>
+                                    <td>Rx/s</td>
+                                    <td>Tx/s</td>
+
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>docker0</td>
+                                <td>0b</td>
+                                <td>0b</td>
+                            </tr>
+                            <tr>
+                                <td>eth0</td>
+                                <td>0b</td>
+                                <td>0b</td>
+                            </tr>
+                            <tr>
+                                <td>lo</td>
+                                <td>256b</td>
+                                <td>256b</td>
+                            </tr>
+                            <tr>
+                                <td>vethb1e07b2</td>
+                                <td>0b</td>
+                                <td>0b</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col" style="margin-left:-0.5em ;">
+            <div class="card text-white bg-dark">
+
+                <div class="card-body">
+                    <div style="background-color: green; color: white;" class="card-header">
+                        CONTAINERS 2 (served by Docker 18.09.2)
+                      </div>
+                    <table class="table table-sm">
+                        <tr>
+                            <td>Name</td>
+                            <td>Status</td>
+                            <td>CPU%</td>
+                            <td>MEM</td>
+                            <td>/MAX</td>
+                            <td>IOR/s</td>
+                            <td>IOM/s</td>
+                            <td>Rx/s</td>
+                            <td>Tx/s</td> 
+                            <td>Command</td>
+
+                        </tr>
+                        <tr>
+                            <td>heuristic_engelbart</td>
+                            <td style="color: limegreen;">running</td>
+                            <td>27.4</td>
+                            <td>34.6M</td>
+                            <td>1.95G</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>sleepy_ritchie</td>
+                            <td style="color: limegreen;">running</td>
+                            <td>0.3</td>
+                            <td>33.7M</td>
+                            <td>1.95</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>0b</td>
+                            <td>0b</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+
+                </div>
+              </div>
+        </div>   
+    </div>    
+        <div class="row">
+            <div class="col-3 px-1" style="margin-left: -0.5em; margin-top: 1.0em;">
+                <div class="card text-white bg-dark">
+                    <div class="card-body">
+                        <div style="background-color: green;" class="card-header">
+                            DISK INFO
+                        </div>
+                        <table class="table table-sm">
+                            <thead>
+                                <tr style="color: yellowgreen;">
+                                    <td>DISK I/O</td>
+                                    <td>R/s</td>
+                                    <td>W/s</td>
+                                </tr>
+                            </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>nbd0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb2</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb4</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb5</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb6</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb7</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb8</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb9</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb10</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb11</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb12</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb13</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb14</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>nb15</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>sda</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>sda1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>sr0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>sr1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>sr2</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col" style="margin-top: 1.0em;">
+                <div class="card bg-dark text-white">
+                    
+                    <div class="card-body">
+                        <div style="background-color: green; color: white;" class="card-header">
+                            CPU USAGE
+                          </div>
+                        <table class="table table-sm">
+                            <thead>
+                                <tr style="color: yellowgreen;">
+                                    <td>CPU%</td>
+                                    <td>MEM%</td>
+                                    <td>VIRT</td>
+                                    <td>RES</td>
+                                    <td>PID</td>
+                                    <td>USER</td>
+                                    <td>TIME+</td>
+                                    <td>THR</td>
+                                    <td>NI</td>
+                                    <td>S</td>
+                                    <td>R/s</td>
+                                    <td>W/s</td>
+                                    <td>Command</td>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>40.2</td>
+                                <td>1.9 </td>
+                                <td>460M</td>
+                                <td>37.6M </td>
+                                <td>2640 </td>
+                                <td>root</td>
+                                <td>12:35 </td>
+                                <td>3</td>
+                                <td>5</td> 
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>python -m glances -C /glances/conf/glances.conf -w</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>13.3</td>
+                                <td>2.0</td>
+                                <td>471M</td>
+                                <td>39.2M</td>
+                                <td>4647</td>
+                                <td>root</td>
+                                <td>4:15</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>R</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>python -m glances -C /glances/conf/glances.conf</td>
+                            </tr>
+                            <tr>
+                                
+                                <td>2.3</td>
+                                <td>3.3</td>
+                                <td>512M</td>
+                                <td>65.4M</td>
+                                <td>1302</td>
+                                <td>root</td>
+                                <td>4:36</td>
+                                <td>14</td>
+                                <td>0</td>
+                                <td>S</td>
+                                <td>?</td>
+                                <td>?</td>
+                                <td>/usr/local/bin/dockerd -H unix:///var/run/docker.sock --config-file /run/config/docker/daemon.</td>
+                            </tr>
+                            <tr>
+                                <td>2.0</td>
+                                <td>1.4</td>
+                                <td>408M</td>
+                                <td>27.0M</td>
+                                <td>1392</td>
+                                <td>root</td>
+                                <td>2:16</td>
+                                <td>15</td>
+                                <td>0</td>
+                                <td>S</td>
+                                <td>?</td>
+                                <td>?</td>
+                                <td>containerd --config /var/run/docker/containerd/containerd.toml --log-level debug</td>
+                            </tr>
+                            <tr> 
+                                <td>1.0</td>
+                                <td>1.5</td>
+                                <td>43.7M</td>
+                                <td>30.0M</td>
+                                <td>957</td>
+                                <td>root</td>
+                                <td>0:12</td>
+                                <td>23</td>
+                                <td>0</td>
+                                <td>S</td>
+                                <td>?</td>
+                                <td>?</td>
+                                <td>/usr/bin/containerd</td>
+                            </tr>
+                            <tr>
+                                <td>1.0</td>
+                                <td>0.3</td>
+                                <td>10.7M</td>
+                                <td>6.74M</td>
+                                <td>1451</td>
+                                <td>root</td>
+                                <td>0:21</td>
+                                <td>8</td>
+                                <td>0</td>
+                                <td>S</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>//vpnkit-forwarder -vsockPort 62373</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </table>
+    
+                    </div>
+                </div>
+            </div>   
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
