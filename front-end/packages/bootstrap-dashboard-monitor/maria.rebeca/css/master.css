@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: left;
+  background-color: #f5f7fb;
+}
+
+.text-green {
+  color: #5eba00;
+}
+
+.text-red {
+  color: #cd201f;
+}
+
+.bg-red {
+  background-color: #cd201f;
+}
+
+.bg-green {
+  background-color: #5eba00;
+}
+
+.bg-yellow {
+  background-color: #f1c40f; 
+}
+
+.bg-blue {
+  background-color: #467fcf;
+}
+
+.textbold {
+  color: #495057da;
+  font-weight: bold;
+}
+
+.text-small {
+  font-size: 14px;
+  color: #495057d5;
+}
+.card {
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.tabela {
+  margin: 0;
+  padding: 0;
+}
+
+.card-body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.comp3 {
+  font-weight: bolder;
+  font-size: 58px;
+}
+
+.aj {
+  font-size:27px;  
+  font-weight: normal; 
+}
+
+.perfilf {
+  border-radius: 50%;
+  height: 25%;
+  text-align: center;
+}
+
+.link {
+  color: rgb(0, 153, 255);
+}
+
+.link:hover {
+  color: rgba(0, 0, 255, 0.726);
+}
+
+.itens {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 0.7rem;
+  width: 3em;
+  height: 3em;
+  border-radius: 3px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.aj2 {
+  padding-left: 1em;
+}
