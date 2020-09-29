@@ -3,7 +3,7 @@ let cal = 0;
 
 console.log(x+2);
 
-cal = x**2;
+cal = x**8;
 console.log(cal);
 
 cal = Math.cbrt(x);
