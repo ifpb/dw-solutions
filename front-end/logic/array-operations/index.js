@@ -21,8 +21,9 @@ function impar(...params) {
 			impares += valor;
 			}
 	}
-	return impares
+	return impares;
 }
+
 
 console.log(soma(1,2,3));
 console.log(soma(2,2,2));
