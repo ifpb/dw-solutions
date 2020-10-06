@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>EZ SERVER MONITOR</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Material+Icons">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <span>vm-debian8-part - 192.168.0.1</span>
+    <i class="material-icons">cached</i>
+  </header>
+  <main>
+    <div class="row">
+      <div class="col-left">
+        <section class="panel system">
+          <header>System<i class="material-icons">cached</i></header>
+              <table class="table table-striped table-sm">
+                <tr>
+                  <td>Hostname</td>
+                  <td>vm-debian8-part</td>
+                </tr>
+                <tr>
+                  <td>OS</td>
+                  <td>Debian GNU/Linux 8.1 (jessie)</td>
+                </tr>
+                <tr>
+                  <td>Kernel version</td>
+                  <td>3.16.0-4-amd64</td>
+                </tr>
+                <tr>
+                  <td>Uptime</td>
+                  <td>1 day, 2 hour</td>
+                </tr>
+                <tr>
+                  <td>Last boot</td>
+                  <td>2017-06-09 10:10:10</td>
+                </tr>
+                <tr>
+                  <td>Current user(s)</td>
+                  <td> 2</td>
+                </tr>
+              </table>
+        </section>
+
+        <section class="panel network">
+          <header>Network Usage<i class="material-icons">cached</i></header>
+              <table class="table table-striped table-sm text-center">
+                  <tr>
+                    <td>Interface</td>
+                    <td>IP</td>
+                    <td>Receive</td>
+                    <td>Transmit</td>
+                  </tr>
+                  <tr>
+                    <td>eth0</td>
+                    <td>192.168.0.1</td>
+                    <td>500.00 MB</td>
+                    <td>19.00 MB</td>
+                  </tr>
+                  <tr>
+                    <td>lo</td>
+                    <td>127.0.0.1</td>
+                    <td>10 Kb</td>
+                    <td>10 Kb</td>
+                  </tr>
+              </table>
+        </section>
+      </div>
+
+      <div class="col-right">
+        <section class="panel memory">
+          <header>Memory<i class="material-icons">cached</i></header>
+              <table class="table table-striped table-sm">
+                <tr>
+                  <td>Used %</td>
+                  <td>16%</td>
+                </tr>
+                <tr>
+                  <td>Used</td>
+                  <td>80.28 MB</td>
+                </tr>
+                <tr>
+                  <td>Free</td>
+                  <td>414.17 MB</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>494.45 MB</td>
+                </tr>
+              </table>
+        </section>
+
+        <section class="panel service">
+          <header>Services Status<i class="material-icons">cached</i></header>
+              <table class="table table-striped table-sm">
+                <tr>
+                  <td>online</td>
+                  <td>Web Server</td>
+                  <td>80</td>
+                </tr>
+                <tr>
+                  <td>offline</td>
+                  <td>Email Server (incoming)</td>
+                  <td>993</td>
+                </tr>
+                <tr>
+                  <td>offline</td>
+                  <td>Email Server (outgoing)</td>
+                  <td>587</td>
+                </tr>
+                <tr>
+                  <td>offline</td>
+                  <td>Database Server</td>
+                  <td>3306</td>
+                </tr>
+                <tr>
+                  <td>online</td>
+                  <td>SSH</td>
+                  <td>22</td>
+                </tr>
+              </table>
+        </section>
+      </div>
+    </div>
+
+    <section class="panel disk">
+      <header>Disk Usage<i class="material-icons">cached</i></header>
+          <table class="table table-striped table-sm">
+            <tr>
+              <td>Filesystem</td>
+              <td>Mount</td>
+              <td>Use</td>
+              <td>Free</td>
+              <td>Used</td>
+              <td>Total</td>
+            </tr>
+            <tr>
+              <td>/dev/sda1</td>
+              <td>/</td>
+              <td>37%</td>
+              <td>1.42GB</td>
+              <td>808.07MB</td>
+              <td>2.36GB</td>
+            </tr>
+            <tr>
+              <td>/dev/sda2</td>
+              <td>/var</td>
+              <td>10%</td>
+              <td>2GB</td>
+              <td>212.04MB</td>
+              <td>2.34BB</td>
+            </tr>
+            <tr>
+              <td>/dev/sda3</td>
+              <td>/home</td>
+              <td>1%</td>
+              <td>2.53GB</td>
+              <td>4.21MB</td>
+              <td>2.69GB</td>
+            </tr>
+          </table>
+    </section>
+  </main>
+</body>
+</html>
