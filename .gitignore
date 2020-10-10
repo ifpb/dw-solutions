@@ -4,3 +4,5 @@
 **/package-lock.json
 **/supervisord.log
 **/supervisord.pid
+example.html
+.gitignore

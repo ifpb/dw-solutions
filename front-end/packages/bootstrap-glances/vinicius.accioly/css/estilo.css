@@ -1,0 +1,21 @@
+body {
+    background-color: darkgrey;
+ }
+ 
+ /* Define a cor da fonte das tabelas */
+ .table{
+     color: white;
+ }
+ 
+ .card{
+     background-color: gray;
+     color: white;
+ }
+
+ 
+ .table-sm td, .table-sm th {
+    padding: 0 .3rem;
+ }
+.card-header{
+    color: black;
+}
